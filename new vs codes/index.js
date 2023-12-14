@@ -1,0 +1,14 @@
+"use strict";
+console.log("Hello World");
+let name1 = "hassan";
+console.log(name1);
+let firstName = "hassan";
+let lastName = "sheikh";
+console.log(lastName);
+console.log(firstName + lastName);
+let testvariable = 10;
+console.log(testvariable);
+let name2 = 'true';
+console.log(name2);
+let thing7 = "false";
+console.log(thing7);

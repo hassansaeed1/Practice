@@ -1,0 +1,3 @@
+"use strict";
+/*Write a program that takes temperature and check it. If it is cold then suggest the user to wear warm
+ clothes and so on according to the weather*/ 

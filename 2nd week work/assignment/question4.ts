@@ -3,8 +3,11 @@
 
  function calculatesTheDiscount(price:number){
     if(price>100){
-        return ()
+        return price*0.9
     }else {
-        return price
+        return price*0.95
     }
  }
+ var price:number=120
+ var discountPrice=calculatesTheDiscount(price)
+ console.log(`The discounted price is ${discountPrice}`)

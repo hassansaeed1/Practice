@@ -5,18 +5,18 @@
  
  function make_great(Magicians:string[]){
     let great_magicians:string[]=[]
-    for(let index=0;index<magicians.length;index++){
-        great_magicians[index]="The Great "+magicians[index]
+    for(let index=0;index<Magicians.length;index++){
+        great_magicians[index]="The Great "+Magicians[index]
         }
         return great_magicians
  }
  
- function show_magicians(Magicians:string){
-console.log(magicians)
+ function show_magicians(Magicians:string[]){
+console.log(Magicians)
  }
 
  var Magicians:string[]=["hassan sheikh","zain sheikh","hussain sheikh"]
- show_magicians(magicians)
- let great_magicians:string[]=make_great([...magicians])
+ show_magicians(Magicians)
+ let great_magicians:string[]=make_great(Magicians)
  show_magicians(great_magicians)
  

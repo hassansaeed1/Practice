@@ -9,3 +9,6 @@
 
  var magician=["hassan sheikh","hamid sheikh","muzamal sheikh"]
  show_magicians(magician)
+
+ export{}
+

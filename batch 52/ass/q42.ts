@@ -18,3 +18,5 @@ let magicians: string[] = ["Hassan sheikh", "Zain sheikh", "Hussain sheikh"];
 show_magician(magicians);
 make_great(magicians);
 show_magician(magicians);
+
+export{}

@@ -7,3 +7,10 @@ var item3 = { name: "orange", price: 35, quantity: 6 };
 console.log(item1);
 console.log(item2);
 console.log(item3);
+var items = [{ modle: "oppo", features: "Camera", price: 27000 },
+    { modle: "samsung", features: "Amoled Display", price: 550000 },
+    { model: "vivo", features: "In display Finger Print", price: 36000 }
+];
+for (let i = 0; i < items.length; i++) {
+    console.log(`Modle: ${items[i].modle} features: ${items[i].features} price: ${items[i].price}`);
+}

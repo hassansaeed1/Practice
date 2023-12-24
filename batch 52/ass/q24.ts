@@ -55,7 +55,7 @@ console.log("age<=40");
 console.log(age <= 40);
 
 var num: number = 56;
-var k = num >= 65 && num <= 95;
+var k :boolean= num >= 65 && num <= 95;
 console.log(k);
 
 var num: number = 56;

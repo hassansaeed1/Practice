@@ -11,4 +11,10 @@ if (true) {
     console.log(abc);
 }
 console.log(abc);
-console.log(Math.floor(Math.random()));
+function provideAge(age) {
+    switch (true) {
+        case age >= 0 && age <= 12:
+            return "Person Is Kid";
+        case age >= 13 && age <= 19:
+    }
+}

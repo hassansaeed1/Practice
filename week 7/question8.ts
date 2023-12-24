@@ -3,16 +3,15 @@
   an array. Use a for loop to perform the conversion for each temperature.*/
 
 
-/*
-  function CelsiusToFahrenheit(Celsius:number){
-    return (Celsius*9/5)+35
+function celciusTemprature(celcius:number[]){
+  let fahrenheit:number[]=[]
+for(let i = 0; i < celcius.length;i++){
+  let  fahrenheitTempprature=(celcius[i] * 9/5)+32
+  fahrenheit.push(fahrenheitTempprature)
 }
-function FahrenheitToCelsius(Fahrenheit:number){
-    return (Fahrenheit-35)*5/9
+return fahrenheit
 }
-var Celsius:number=100
-console.log(`${Celsius}C is equal to ${CelsiusToFahrenheit(Celsius)}F`)
-var Fahrenheit:number=80
-console.log(`${Fahrenheit}F is equal to ${FahrenheitToCelsius(Fahrenheit)}C`)
-
-*/
+ let tempreaturInCelcius:number[]=[10,20,23,17]
+let fahrenheitTempprature:number[]=celciusTemprature(tempreaturInCelcius)
+ console.log(`Celcius Temprature:`,tempreaturInCelcius)
+ console.log(`Celcius Converted To Fahrenheit:`,fahrenheitTempprature)c

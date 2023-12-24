@@ -7,25 +7,24 @@
      album’s Object.Make at least one new function call that includes the number of tracks on an album.
 
 */
-interface Album{
-     artist:string
-     title :string
-     tracks?:number
+interface Album {
+  artist: string;
+  title: string;
+  tracks?: number;
 }
 function make_album(artist: string, title: string, tracks?: number): Album {
-     const album: Album = { artist, title };
-     if (tracks) {
-       album.tracks = tracks;
-     }
-     return album;
-   }
-   
-   var album1 = make_album("The Beatles", "Abbey Road");
-   var album2 = make_album("Pink Floyd", "The Wall", 26);
-   var album3 = make_album("Led Zeppelin", "IV", 8);
-   
-   console.log(album1);
-   console.log(album2);
-   console.log(album3);
-   export{}
-  
+  const album: Album = { artist, title };
+  if (tracks) {
+    album.tracks = tracks;
+  }
+  return album;
+}
+
+var album1 = make_album("The Beatles", "Abbey Road");
+var album2 = make_album("Pink Floyd", "The Wall", 26);
+var album3 = make_album("Led Zeppelin", "IV", 8);
+
+console.log(album1);
+console.log(album2);
+console.log(album3);
+export {};

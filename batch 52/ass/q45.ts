@@ -3,16 +3,20 @@
   keyword arguments. Call the function with the required information and two other name-value
    pairs, such as a color or an optional feature. Print the Object that’s returned to make sure
     all the information was stored correctly.*/
-    
 
-    function storeCarInfo(manufacturer:string,modelName:string,color:string,optionalFeature:string):object{
-        let car={
-            manufacturer:manufacturer,
-            modelName:modelName,
-            color:color,
-            optionalFeature:optionalFeature
-        }
-        return car
-    }
-    var car1=storeCarInfo("Honda","Rebirth","White","sunroof")
-    console.log(car1)
+function storeCarInfo(
+  manufacturer: string,
+  modelName: string,
+  color: string,
+  optionalFeature: string
+): object {
+  let car = {
+    manufacturer: manufacturer,
+    modelName: modelName,
+    color: color,
+    optionalFeature: optionalFeature,
+  };
+  return car;
+}
+var car1 = storeCarInfo("Honda", "Rebirth", "White", "sunroof");
+console.log(car1);

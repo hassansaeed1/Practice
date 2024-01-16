@@ -9,7 +9,7 @@ function storeCarInfo(manufacturer, modelName, color, optionalFeature) {
         manufacturer: manufacturer,
         modelName: modelName,
         color: color,
-        optionalFeature: optionalFeature
+        optionalFeature: optionalFeature,
     };
     return car;
 }

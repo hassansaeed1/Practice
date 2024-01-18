@@ -9,7 +9,7 @@ const sleep= ()=>{
     })
 }
 async function wellcome(){
-    let rainbowTitle =chalkAnimation.rainbow(`lets start calculation`);
+    let rainbowTitle =chalkAnimation.rainbow(`Develp by Hassan Sheikh \n --lets start calculation`);
     await sleep();
     rainbowTitle.stop();
 }
@@ -27,12 +27,12 @@ async function askQuestion(){
             choices:["+","-","*","/"]
         },
         {
-            type:Number,
+            type:"input",
             name:"num1",
             massage:"Enter number 1: "
         },
         {
-            type:Number,
+            type:"input",
             name:"num2",
             massage:"Enter number 2: "
         }

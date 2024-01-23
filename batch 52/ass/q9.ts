@@ -1,8 +1,3 @@
-/*var myname2="hassan"
-var fullname=myname2+"Sheikh"
-console.log(fullname)*/
-
-/*
-var number=10
-var favtnumber=`my favt number is${number}`
-console.log(favtnumber)*/
+var favNumber = 69;
+var message1 = `My Favourite Number is ${favNumber}`;
+console.log(message1);
